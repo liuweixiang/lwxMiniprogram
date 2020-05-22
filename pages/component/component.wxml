@@ -1,0 +1,4 @@
+<!--pages/component/component.wxml-->
+<text>pages/component/component.wxml</text>
+<button wx:if="{{!imageSrc}}" bindtap="handleChooseAlbum">从相册选择照片</button>
+<image src="{{imageSrc}}" wx:else></image>
